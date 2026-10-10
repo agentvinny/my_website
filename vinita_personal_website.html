@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f5f7">
+<meta name="description" content="Vinita Kumari — Product Manager building thoughtful AI-native, B2B SaaS, and platform products.">
+<title>Vinita Kumari — Product Manager</title>
+<style>
+:root{--bg:#f5f5f7;--paper:#fff;--ink:#1d1d1f;--muted:#6e6e73;--blue:#06c;--line:rgba(29,29,31,.1);--radius:28px;--max:1120px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,a{-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible{outline:3px solid #0071e3;outline-offset:4px}
+.wrap{width:min(var(--max),calc(100% - 48px));margin-inline:auto}
+.nav-shell{position:sticky;top:0;z-index:20;background:rgba(245,245,247,.82);backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.06)}
+nav{height:54px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:650;letter-spacing:-.03em;font-size:15px;white-space:nowrap}
+.nav-links{display:flex;gap:26px;align-items:center;font-size:12px;color:#424245}
+.nav-links a{transition:color .2s}.nav-links a:hover{color:var(--blue)}
+.nav-cta{background:var(--ink);color:#fff!important;border-radius:999px;padding:7px 13px}
+.menu-button{display:none;border:0;background:transparent;font:inherit;font-size:22px;padding:5px}
+.hero{padding:94px 0 76px;text-align:center;overflow:hidden}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.hero h1{font-size:clamp(48px,8.5vw,96px);line-height:.98;letter-spacing:-.075em;font-weight:700;margin:22px auto 20px;max-width:980px}
+.gradient-text{background:linear-gradient(100deg,#1d1d1f 8%,#54545a 43%,#0071e3 90%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:clamp(18px,2.4vw,24px);letter-spacing:-.025em;color:#515154;max-width:720px;margin:0 auto}
+.hero-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 19px;border-radius:999px;background:var(--blue);color:white;font-size:15px;font-weight:550;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:#0077ed}
+.btn.secondary{background:transparent;color:var(--blue);border:1px solid rgba(0,102,204,.35)}
+.btn.secondary:hover{background:rgba(0,102,204,.06)}
+.hero-art{margin:64px auto 0;max-width:1000px;min-height:290px;border-radius:34px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 18% 80%,rgba(0,113,227,.72),transparent 38%),radial-gradient(ellipse at 80% 20%,rgba(167,139,250,.7),transparent 35%),linear-gradient(130deg,#10121b,#222638 55%,#121d34);box-shadow:0 28px 70px rgba(30,40,70,.18);display:grid;place-items:center}
+.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.22);border-radius:50%;width:540px;height:220px;transform:rotate(-25deg)}
+.hero-art:after{width:680px;height:300px;transform:rotate(22deg);border-color:rgba(255,255,255,.13)}
+.art-orb{width:160px;height:160px;border-radius:50%;background:radial-gradient(circle at 32% 25%,#fff 0,#b6d7ff 7%,#4d82ff 26%,#192d6d 62%,#090e22 100%);box-shadow:0 0 65px rgba(74,133,255,.65),inset -20px -20px 35px rgba(0,0,0,.5);position:relative;z-index:1}
+.art-label{position:absolute;bottom:26px;left:30px;color:rgba(255,255,255,.72);font-size:12px;letter-spacing:.13em;text-transform:uppercase}
+section{padding:58px 0}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:28px}
+.kicker{color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;margin-bottom:8px}
+h2{font-size:clamp(32px,5vw,54px);letter-spacing:-.06em;line-height:1.05;margin:0;font-weight:650}
+.section-note{color:var(--muted);max-width:340px;font-size:15px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+.card{background:var(--paper);border-radius:var(--radius);padding:30px;min-width:0;box-shadow:0 2px 10px rgba(0,0,0,.025)}
+.card h3{font-size:23px;letter-spacing:-.04em;margin:0 0 10px}
+.card p{color:var(--muted);margin:0}
+.card .icon{height:48px;width:48px;border-radius:15px;display:grid;place-items:center;background:#f2f6ff;color:#1769cf;font-size:23px;margin-bottom:24px}
+.span-4{grid-column:span 4}.span-6{grid-column:span 6}.span-8{grid-column:span 8}.span-12{grid-column:span 12}
+.intro-card{background:#fff;display:flex;flex-direction:column;justify-content:space-between;min-height:270px}
+.intro-card .big-copy{font-size:clamp(24px,3vw,37px);line-height:1.18;letter-spacing:-.05em;max-width:760px}
+.intro-card .big-copy strong{font-weight:650}
+.pill-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.pill{font-size:12px;padding:7px 11px;background:#f5f5f7;color:#515154;border-radius:999px}
+.experience{display:flex;flex-direction:column;gap:0}
+.role{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:25px 0;border-bottom:1px solid var(--line)}
+.role:last-child{border-bottom:0;padding-bottom:0}
+.role:first-child{padding-top:0}
+.role-date{font-size:13px;color:var(--muted);padding-top:5px}
+.role h3{margin:0;font-size:21px;letter-spacing:-.035em}
+.role .company{font-size:15px;color:var(--muted);margin:3px 0 12px}
+.role p{color:#515154;margin:0;max-width:700px}
+.metric-row{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}
+.metric{padding:20px;background:#f5f5f7;border-radius:18px}
+.metric strong{display:block;font-size:34px;letter-spacing:-.06em;line-height:1.1}
+.metric span{font-size:13px;color:var(--muted)}
+.education-item{padding:20px 0;border-bottom:1px solid var(--line)}
+.education-item:first-child{padding-top:0}.education-item:last-child{border-bottom:0;padding-bottom:0}
+.education-item h3{font-size:18px;margin:0 0 5px}
+.education-item p{font-size:14px;color:var(--muted)}
+.year{font-size:12px;color:var(--muted);margin-top:5px}
+.cert-list{display:flex;flex-direction:column;gap:14px}
+.cert{display:flex;gap:12px;align-items:flex-start;font-size:14px;color:#424245}
+.check{flex:0 0 23px;height:23px;border-radius:50%;background:#eaf3ff;color:#06c;display:grid;place-items:center;font-size:12px;font-weight:700}
+.contact-panel{background:#171719;color:#fff;border-radius:34px;padding:clamp(30px,6vw,68px);position:relative;overflow:hidden}
+.contact-panel:after{content:"";position:absolute;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(0,113,227,.36),transparent 68%);right:-90px;top:-170px;pointer-events:none}
+.contact-panel h2{max-width:680px;position:relative;z-index:1}
+.contact-panel p{color:#b8b8bd;font-size:17px;max-width:580px;margin:18px 0 26px;position:relative;z-index:1}
+.contact-panel .hero-actions{justify-content:flex-start;position:relative;z-index:1}
+.contact-panel .btn.secondary{border-color:#5c5c62;color:#fff}
+footer{padding:28px 0 36px;color:var(--muted);font-size:12px}
+.footer-row{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.footer-links{display:flex;gap:18px}
+.footer-links a:hover{color:var(--blue)}
+.small-label{font-size:12px;color:var(--muted);margin-top:12px}
+@media(max-width:760px){
+ .wrap{width:min(100% - 32px,var(--max))}
+ .nav-links{display:none;position:absolute;top:54px;left:0;right:0;background:rgba(245,245,247,.97);padding:18px 24px 24px;flex-direction:column;align-items:flex-start;gap:18px;border-bottom:1px solid var(--line)}
+ .nav-links.open{display:flex}.menu-button{display:block}
+ .hero{padding:70px 0 48px}.hero-art{min-height:220px;margin-top:44px;border-radius:25px}.art-orb{width:125px;height:125px}
+ section{padding:42px 0}.section-head{display:block}.section-note{margin-top:14px}
+ .span-4,.span-6,.span-8{grid-column:span 12}.card{padding:24px;border-radius:23px}
+ .role{grid-template-columns:1fr;gap:5px;padding:22px 0}.role-date{order:2;padding-top:0}.role>div:nth-child(2){order:1}
+ .metric-row{grid-template-columns:1fr 1fr}.metric{padding:16px}.metric strong{font-size:29px}
+ .contact-panel{border-radius:26px}.footer-row{flex-direction:column}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="nav-shell">
+  <nav class="wrap" aria-label="Main navigation">
+    <a class="brand" href="#home">Vinita Kumari</a>
+    <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false" id="menuButton">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a><a href="#focus">What I do</a><a href="#experience">Experience</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Let’s connect</a>
+    </div>
+  </nav>
+</div>
+
+<main id="home">
+  <header class="hero wrap">
+    <div class="eyebrow">Product Manager · Bengaluru, India</div>
+    <h1>Making complex technology<br><span class="gradient-text">feel simple.</span></h1>
+    <p>I’m Vinita — a product manager building thoughtful AI-native, B2B SaaS, and platform products at the intersection of enterprise complexity and user simplicity.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#experience">Explore my work <span aria-hidden="true">↘</span></a>
+      <a class="btn secondary" href="mailto:vinitakum25@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="hero-art" role="img" aria-label="Abstract glowing blue sphere surrounded by delicate orbital lines">
+      <div class="art-orb"></div><div class="art-label">Ideas → Products → Impact</div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">A little about me</div><h2>Strategy with a human touch.</h2></div><p class="section-note">Connecting user needs, business outcomes, and engineering realities.</p></div>
+      <div class="grid">
+        <article class="card intro-card span-8">
+          <div class="big-copy">I build products that bring <strong>clarity to complexity</strong> — from enterprise platforms to emerging AI experiences.</div>
+          <div class="pill-row"><span class="pill">Product strategy</span><span class="pill">Roadmap ownership</span><span class="pill">Cross-functional leadership</span><span class="pill">Go-to-market</span></div>
+        </article>
+        <article class="card span-4">
+          <div class="icon" aria-hidden="true">✳</div>
+          <h3>How I work</h3>
+          <p>With collaboration, transparency, and accountability — keeping teams aligned around user needs and measurable business impact.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="focus">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">Areas of focus</div><h2>From big ideas to shipped products.</h2></div></div>
+      <div class="grid">
+        <article class="card span-4"><div class="icon" aria-hidden="true">◈</div><h3>AI & GenAI products</h3><p>Exploring how teams instrument, ship, and measure AI agents in production, including agent publishing workflows and developer experience.</p></article>
+        <article class="card span-4"><div class="icon" aria-hidden="true">▦</div><h3>B2B SaaS platforms</h3><p>Turning complex enterprise needs into coherent platform experiences through roadmap ownership and cross-functional execution.</p></article>
+        <article class="card span-4"><div class="icon" aria-hidden="true">◎</div><h3>Space-tech data</h3><p>Product work across data management and dissemination platforms, connecting technical systems with customer-facing experiences.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">Experience</div><h2>Where I’ve made an impact.</h2></div><p class="section-note">Product leadership across space-tech and enterprise technology.</p></div>
+      <div class="card">
+        <div class="experience">
+          <article class="role">
+            <div class="role-date">Sep 2024 — Present</div>
+            <div><h3>Product Manager</h3><div class="company">GalaxEye · Bengaluru, India</div><p>Led product for B2B SaaS and space-tech platforms, owning roadmap, cross-functional execution, and go-to-market across technical and non-technical stakeholders.</p><div class="pill-row"><span class="pill">B2B SaaS</span><span class="pill">Space-tech</span><span class="pill">Product strategy</span></div></div>
+          </article>
+          <article class="role">
+            <div class="role-date">Sep 2022 — Oct 2023</div>
+            <div><h3>Associate Product Manager</h3><div class="company">IBM · Bengaluru, India</div><p>Worked on enterprise products, partnering across engineering, design, and business to deliver product enhancements and improve team execution.</p></div>
+          </article>
+          <article class="role">
+            <div class="role-date">Sep 2021 — Sep 2022</div>
+            <div><h3>Associate Product Manager &amp; CSM</h3><div class="company">IBM · Bengaluru, India</div><p>Supported product delivery and customer success, with a focus on collaboration, transparency, sprint planning, backlog grooming, and iteration delivery.</p>
+              <div class="metric-row"><div class="metric"><strong>25%</strong><span>Improvement in process efficiency</span></div><div class="metric"><strong>35%</strong><span>Reduction in turnaround time</span></div></div>
+              <div class="small-label">Reported outcomes from product enhancements during my time at IBM.</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <div class="section-head"><div><div class="kicker">Education & learning</div><h2>Grounded in technology.<br>Built around product.</h2></div></div>
+      <div class="grid">
+        <article class="card span-6">
+          <h3>Education</h3>
+          <div class="education-item"><h3>Indian Institute of Management, Kozhikode</h3><p>Product Management, Business</p><div class="year">July 2023 — April 2024</div></div>
+          <div class="education-item"><h3>Manipal Institute of Technology</h3><p>M.Tech, Computer Science Information and Security</p><div class="year">2017 — 2019</div></div>
+          <div class="education-item"><h3>Sikkim Manipal Institute of Technology</h3><p>B.Tech, Computer Science and Engineering</p><div class="year">2013 — 2017</div></div>
+          <div class="education-item"><h3>Kendriya Vidyalaya</h3><p>12th, Science</p><div class="year">2011 — 2013</div></div>
+        </article>
+        <article class="card span-6">
+          <h3>Certifications</h3>
+          <div class="cert-list" style="margin-top:22px">
+            <div class="cert"><span class="check">✓</span><span>Professional Scrum Master™ I (PSM I)</span></div>
+            <div class="cert"><span class="check">✓</span><span>IBM Certified Advocate — Cloud v1</span></div>
+            <div class="cert"><span class="check">✓</span><span>Data Analysis Using Python</span></div>
+            <div class="cert"><span class="check">✓</span><span>IBM Consulting — Communicating Value</span></div>
+            <div class="cert"><span class="check">✓</span><span>IBM Cloud Essentials</span></div>
+          </div>
+          <div class="pill-row" style="margin-top:28px"><span class="pill">Generative AI</span><span class="pill">AI Strategy</span><span class="pill">Prompt Engineering</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-panel">
+        <div class="kicker" style="color:#a7cfff">What’s next?</div>
+        <h2>Have a meaningful product problem to solve?</h2>
+        <p>I’m open to Product Manager and Lead Product Manager opportunities in AI, SaaS, and enterprise products. Let’s build something useful.</p>
+        <div class="hero-actions">
+          <a class="btn" href="mailto:vinitakum25@gmail.com">Email Vinita ↗</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/vinitakum25" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Vinita Kumari. Thoughtfully built.</span><div class="footer-links"><a href="#home">Back to top ↑</a><a href="mailto:vinitakum25@gmail.com">Email</a><a href="https://www.linkedin.com/in/vinitakum25" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
+<script>
+const menuButton=document.getElementById('menuButton');
+const navLinks=document.getElementById('navLinks');
+menuButton.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.textContent=open?'×':'☰';});
+navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuButton.setAttribute('aria-expanded','false');menuButton.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
